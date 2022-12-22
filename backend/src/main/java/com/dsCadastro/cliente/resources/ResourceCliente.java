@@ -10,7 +10,9 @@ public class ResourceCliente {
 	
 	@GetMapping
 	public String teste() {
+		
 		return "funcionou!";
+		
 	}
 
 }
