@@ -40,7 +40,6 @@ public class ResourceCliente {
 		//linesPerPage = quantidade de linhas por página
 		//direction    = tipo de ordenação ASC ou DESC
 		//orderBy 	   = define o nome que ordenara os dados
-		
 		PageRequest pageRequest = PageRequest.of(page,linesPerPage,Direction.valueOf(direction),orderBy);
 		Page<ClientDTO> list = service.findAllPaged(pageRequest);
 				
@@ -51,7 +50,6 @@ public class ResourceCliente {
 	public ResponseEntity<ClientDTO> findById(@PathVariable Long id){
 		
 		ClientDTO client = service.findById(id);
-		
 		return ResponseEntity.ok().body(client);
 	}
 	
