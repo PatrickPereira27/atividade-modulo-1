@@ -65,13 +65,12 @@ public class ResourceCliente {
 		
 		//retorna 201 pra falar que o recurso foi criado, e também retorna o location por conta de boas praticas
 		return ResponseEntity.created(uri).body(dto);
-		
 	}
 	
 	//atualiza o cadastro de cliente
 	@PutMapping("/{id}")
 	public ResponseEntity<ClientDTO> update(@RequestBody ClientDTO dto, @PathVariable Long id){	
-		
+	
 		dto = service.update(id,dto);
 		return ResponseEntity.ok().body(dto);
 	}	
