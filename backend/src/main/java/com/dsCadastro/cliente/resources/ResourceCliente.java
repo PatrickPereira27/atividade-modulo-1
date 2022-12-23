@@ -33,6 +33,7 @@ public class ResourceCliente {
 		//direction    = tipo de ordenação ASC ou DESC
 		//orderBy 	   = define o nome que ordenara os dados
 		
+		
 		PageRequest pageRequest = PageRequest.of(page,linesPerPage,Direction.valueOf(direction),orderBy);
 		Page<ClientDTO> list = service.findAllPaged(pageRequest);
 				
