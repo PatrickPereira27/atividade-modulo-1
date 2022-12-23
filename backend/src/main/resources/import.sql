@@ -1,0 +1,10 @@
+INSERT INTO tb_client (name, cpf,income,birth_date,children) VALUES ('Patrick Pereira Bezerra','0000000021',1000.0,'1993-01-27',1);
+INSERT INTO tb_client (name, cpf,income,birth_date,children) VALUES ('Brenda Meneses','0000000022',2000.0,'1995-05-13',1);
+INSERT INTO tb_client (name, cpf,income,birth_date,children) VALUES ('Bruno Pereira Bezerra','0000000023',3000.0,'1991-10-15',2);
+INSERT INTO tb_client (name, cpf,income,birth_date,children) VALUES ('Tuany Pereira Bezerra','0000000024',4000.0,'1994-01-08',0);
+INSERT INTO tb_client (name, cpf,income,birth_date,children) VALUES ('Reginaldo Bezerra','0000000025',5000.0,'1971-06-25',3);
+INSERT INTO tb_client (name, cpf,income,birth_date,children) VALUES ('Maria Pereira Bezerra','0000000026',6000.0,'1970-06-21',3);
+INSERT INTO tb_client (name, cpf,income,birth_date,children) VALUES ('Sophia Menese','0000000027',7000.0,'2012-02-12',0);
+INSERT INTO tb_client (name, cpf,income,birth_date,children) VALUES ('Nadia Meses','0000000028',8000.0,'1969-04-13',4);
+INSERT INTO tb_client (name, cpf,income,birth_date,children) VALUES ('Ademyr Santos','0000000029',9000.0,'1968-08-23',4);
+INSERT INTO tb_client (name, cpf,income,birth_date,children) VALUES ('Davi Meneses','0000000030',10000.0,'2022-09-21',0);
